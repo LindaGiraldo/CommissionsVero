@@ -1,0 +1,1652 @@
+*{
+    margin: 0;
+    padding:0;
+    font-size:16px;
+    box-sizing: border-box;
+}
+
+header.container{
+    background-color:rgb(255, 245, 233) ;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3%;
+}
+
+div.container-logo{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+div.container-logo img{
+    width: 20%;
+    height: 20%;
+    position: relative;
+    left: 4px;
+    top: 5px;
+}
+
+div.container-logo h1{
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(255, 127, 244);
+    font-size: 3rem;
+}
+
+li {
+    float: left;
+  }
+  
+  a {
+    font-family:Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 8px;
+    background-color: rgb(255, 247, 238);
+  }
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+section#Inicio{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 228, 190);
+}
+section#Inicio h2{
+    font-size: 2rem;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding:2%
+}
+div.container-video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+div.container-video button
+{
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+
+}
+div.container-video img
+{
+    width: 60px;
+    height: 60px;
+
+}
+div.container-video video{
+    width: 550px;
+    height: 350px;
+}
+section#estilos
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgb(255, 228, 190),rgb(255, 127, 244) );
+}
+section#estilos h3
+{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    padding-top: 3%;
+}
+div.container-estilo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+    
+}
+div.realista{
+    background-color:rgb(255, 228, 190);
+    padding-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+div.realista img{
+    width: 300px;
+    height: 400px;
+    
+}
+div.realista h4
+{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 2%;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+div.chibi
+{
+background-color: rgb(218, 190, 255);
+padding-top: 2%;
+ margin-left: 2%;
+    margin-right: 2%;
+}
+div.chibi h4
+{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 10%;
+    padding-bottom: 2%;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+div.chibi img{
+    width: 350px;
+    height: 350px;
+}
+div.beetle
+{
+    background-color: rgb(224, 255, 190);
+    padding-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+div.beetle h4
+{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 10%;
+    padding-bottom: 2%;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+div.beetle img{
+    width: 350px;
+    height: 350px;
+}
+
+
+div.container-estilo button
+{
+    
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+
+}
+div.container-estilo-boton img
+{
+    width: 60px;
+    height: 60px;
+
+}
+section#Proceso
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 5%;
+    background-image:linear-gradient(rgb(255, 127, 244), rgb(255, 228, 190));
+}
+div.container-process
+{
+    display: flex;
+    flex-direction: row;
+}
+
+div.container-process img
+{
+width: 700px;
+height: 350px;
+padding: 2%;
+}
+div.container-textp h3
+{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-bottom: 3%;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+div.container-textp
+{
+ padding: 5%;
+ 
+}
+div.container-textp p{
+    font-size: 1.12rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+div.container-expli
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+div.container-expli p
+{
+    font-size: 1.12rem;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2%;
+
+}
+div.container-expli img
+{
+    
+    display:flex;
+    flex-direction: row-reverse;
+    width: 350px;
+    height: 300px;
+}
+div.imagenes
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+footer
+{
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(rgb(255, 228, 190),rgb(255, 127, 244));
+}
+div.container-contact
+{
+    font-size: 1.12rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    padding: 3%;
+
+}
+div.container-form
+{
+    background-color: rgb(255, 228, 190);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.12;
+    padding: 3em;
+    border-radius: 10%;
+    text-align: center;
+    margin: 3em;
+    
+}
+div.form-container
+{
+    gap: 2.5em;
+    margin-top: 3%;
+    padding: .6em;
+}
+div.form-group
+{
+position: relative;
+ color: #5757577e;
+}
+div.form-input
+{width: 100%;
+    background: none;
+    color: #706c6c;
+    padding: .8em .3em;
+    border:none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div.form-label
+{
+    color: #5757577e;
+    position: absolute;
+    left: 5PX;
+    top: 0;
+
+}
+.form-submit
+{ background-color: rgb(205, 239, 255);
+    color: #000000;
+    font-weight: 300;
+padding: 0 .8em;
+}
+
+div.container-redes
+{
+padding: 1%;
+font-family: 'Courier New', Courier, monospace;
+}
+
+div.face
+{
+display: flex;
+flex-direction: row;
+align-items: center;
+    justify-content: center;
+    padding: 1%;
+
+
+}
+div.insta
+{
+display: flex;
+flex-direction: row;
+align-items: center;
+    justify-content: center;
+    padding: 1%;
+
+}
+div.tiktok
+{
+display: flex;
+flex-direction: row;
+align-items: center;
+    justify-content: center;
+    padding: 1%;
+
+}
+div.container-redes img
+{
+    width: 40px;
+    height: 40px;
+
+}
+div.container-info
+{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flexbox;
+
+}
+div.container-info img{
+    width: 40px;
+    height: 40px;
+}
+
+@media only screen and (min-width : 320px) {
+    header.container{
+        background-color:rgb(255, 116, 195) ;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    div.container-logo{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-bottom: 6%;
+    }
+    div.container-logo img{
+    width: 150px;
+    height: 100px;
+    position: relative;
+    left: 15px;
+    bottom: 20px;
+    right: 10px;
+    }
+    div.container-logo h1{
+    font-family:'Courier New', Courier, monospace;
+    background-color: clear;
+    font-size: 2rem;
+    position: relative;
+    right: 40px;
+    top: 20px;
+    background-color: #db63eb;
+    }
+      a {
+        padding: 7px;
+        background-color: rgb(241, 228, 255);
+      }
+    section#Inicio h2{
+        font-size: 1.6rem;
+        font-family:'Courier New', Courier, monospace;
+        font-weight: bold;
+        justify-content: center;
+        padding:2%;
+        padding-left: 8%;
+    }
+    div.container-video{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    div.container-video button
+    {
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 60px;
+    }
+    div.container-video img
+    {
+        width: 30px;
+        height: 30px;
+    }
+    div.container-video video{
+        width: 230px;
+        height: 230px;
+    }
+    section#estilos
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: linear-gradient(rgb(255, 228, 190),rgb(255, 127, 170) );
+    }
+    section#estilos h3
+    {
+        font-size: 1.3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: normal;
+        padding-top: 3%;
+        padding-left: 9%;
+        margin: 2%;
+    }
+    div.container-estilo
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1%;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin: 2%
+    }
+    div.realista{
+        background-color:rgb(255, 252, 190);
+        padding-top: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    div.realista img{
+        width: 250px;
+        height: 320px;
+    }
+    div.chibi
+    {
+    background-color: rgb(218, 190, 255);
+    padding-top: 2%;
+     margin-top: 4%;
+        margin-bottom: 4%;
+    }
+    div.chibi h4
+    {
+        padding-top: 5%;
+        padding-bottom: 2%;
+    }
+    div.chibi img{
+        width: 250px;
+        height: 250px;
+    }
+    div.beetle h4
+    {
+        padding-top: 3%;
+        padding-bottom: 2%;
+    }
+    div.beetle img{
+        width: 250px;
+        height: 250px;
+    }
+    div.container-estilo button
+    {
+        width: 250px;
+        height: 30px;
+    }
+    div.container-estilo-boton img
+    {
+        width: 30px;
+        height: 30px;
+    }
+    section#Proceso
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 5%;
+        background-image:linear-gradient(rgb(255, 127, 170) , rgb(255, 219, 190));
+    }
+    div.container-process
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    div.container-process img
+    {
+    width: 300px;
+    height: 175px;
+    }
+    div.container-textp h3
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.4rem;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    div.container-textp p{
+        font-size: 1.1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 25px;
+    }
+    div.container-expli
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    div.container-expli p
+    {
+        font-size: 1.1rem;
+        line-height: 25px;
+    }
+    div.container-expli img
+    {
+        display:flex;
+        flex-direction: row-reverse;
+        width: 145px;
+        height: 135px;
+    }
+    footer
+    {
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(rgb(255, 219, 190),rgb(255, 127, 244));
+    }
+    div.container-contact
+    {
+        background-color: hsl(9, 100%, 86%);
+        justify-content: center;
+    }
+    div.container-form
+    {
+        background-color: rgb(255, 228, 190);
+        display: flex;
+        flex-direction: column;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.12;
+        padding: 1em;
+        border-radius: 10%;
+        text-align: center;
+        margin: 1em;
+        
+    }
+    div.container-info
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        display: flexbox;
+    
+    }
+    div.container-info img{
+        width: 80px;
+        height: 60px;
+        position: relative;
+        left: 200px;
+        top: 30px;
+    }
+
+}
+
+@media only screen and (min-width : 480px) {
+    header.container{
+        background-color:rgb(255, 116, 125) ;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    div.container-logo{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-bottom: 6%;
+    }
+    div.container-logo img{
+    width: 150px;
+    height: 100px;
+    position: relative;
+    left: 15px;
+    bottom: 20px;
+    right: 10px;
+    }
+    div.container-logo h1{
+    font-family:'Courier New', Courier, monospace;
+    background-color: clear;
+    font-size: 2.3rem;
+    position: relative;
+    right: 40px;
+    top: 20px;
+    background-color: #db63eb;
+    }
+      a {
+        padding: 7px;
+        background-color: rgb(224, 223, 255);
+      }
+    section#Inicio h2{
+        font-size: 1.6rem;
+        font-family:'Courier New', Courier, monospace;
+        font-weight: bold;
+        justify-content: center;
+        padding:2%;
+        padding-left: 8%;
+    }
+    div.container-video{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    div.container-video button
+    {
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 80px;
+    }
+    div.container-video img
+    {
+        width: 40px;
+        height: 40px;
+    }
+    div.container-video video{
+        width: 280px;
+        height: 280px;
+    }
+    section#estilos
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: linear-gradient(rgb(255, 228, 190),rgb(255, 153, 127) );
+    }
+    section#estilos h3
+    {
+        font-size: 1.3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: normal;
+        padding-top: 3%;
+        padding-left: 9%;
+        margin: 2%;
+        padding-right: 3%;
+    }
+    div.container-estilo
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1%;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin: 2%
+    }
+    div.realista{
+        background-color:rgb(190, 255, 247);
+        padding-top: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    div.realista img{
+        width: 300px;
+        height: 380px;
+    }
+    div.chibi
+    {
+    background-color: rgb(190, 255, 208);
+    padding-top: 2%;
+     margin-top: 6%;
+        margin-bottom: 6%;
+    }
+    div.chibi h4
+    {
+        padding-top: 5%;
+        padding-bottom: 3%;
+    }
+    div.chibi img{
+        width: 300px;
+        height: 300px;
+    }
+    div.beetle h4
+    {
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    div.beetle img{
+        width: 300px;
+        height: 300px;
+    }
+    div.container-estilo button
+    {
+        width: 300px;
+        height: 40px;
+    }
+    div.container-estilo-boton img
+    {
+        width: 40px;
+        height: 40px;
+    }
+    section#Proceso
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 5%;
+        background-image:linear-gradient(rgb(255, 153, 127) , rgb(255, 219, 190));
+    }
+    div.container-process
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    div.container-process img
+    {
+    width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    }
+    div.container-textp h3
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.4rem;
+        font-family: 'Courier New', Courier, monospace;
+    
+    }
+    div.container-textp p{
+        font-size: 1.1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 25px;
+    }
+    div.container-expli
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    div.container-expli p
+    {
+        font-size: 1.1rem;
+        line-height: 25px;
+    }
+    div.container-expli img
+    {
+        display:flex;
+        flex-direction: row-reverse;
+        width: 175px;
+        height: 150px;
+    }
+    footer
+    {
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(rgb(255, 219, 190),rgb(251, 174, 174));
+    }
+    div.container-contact
+    {
+        background-color: hsl(9, 100%, 86%);
+        justify-content: center;
+    }
+    div.container-form
+    {
+        background-color: rgb(255, 228, 190);
+        display: flex;
+        flex-direction: column;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.12;
+        padding: 1em;
+        border-radius: 10%;
+        text-align: center;
+        margin: 1em;
+        
+    }
+    div.container-info
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+        padding-left: 3%;
+    
+    }
+    div.container-info img{
+        width: 120px;
+        height: 80px;
+        position: relative;
+        left: 280px;
+        top: 30px;
+    }
+
+}
+
+@media only screen and (min-width : 768px) {
+    header.container{
+        background-color:rgb(247, 255, 221) ;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 3%;
+    }
+    
+    div.container-logo{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+    div.container-logo img{
+        width: 40%;
+        height: 40%;
+        position: relative;
+        left: 4px;
+        top: 5px;
+    }
+    
+    div.container-logo h1{
+        font-family:'Courier New', Courier, monospace;
+        background-color: rgb(255, 231, 96);
+        font-size: 2.8rem;
+    }
+    
+      a {
+        font-family:Arial, Helvetica, sans-serif;
+        display: block;
+        padding: 8px;
+        background-color: rgb(255, 247, 238);
+      }
+ 
+    section#Inicio{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(253, 210, 150);
+    }
+    section#Inicio h2{
+        font-size: 2rem;
+        font-family:'Courier New', Courier, monospace;
+        font-weight: bold;
+        padding:2%
+    }
+    div.container-video{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    div.container-video button
+    {
+        align-items: center;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+    
+    }
+    div.container-video img
+    {
+        width: 60px;
+        height: 60px;
+    
+    }
+    div.container-video video{
+        width: 550px;
+        height: 350px;
+    }
+    section#estilos
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: linear-gradient(rgb(253, 210, 150),rgb(255, 127, 244) );
+    }
+    section#estilos h3
+    {
+        font-size: 1.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: normal;
+        padding-top: 3%;
+    }
+    div.container-estilo
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 1%;
+        padding-left: 2%;
+        padding-right: 2%;
+        
+    }
+    div.realista{
+        background-color:rgb(255, 228, 190);
+        padding-top: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    div.realista img{
+        width: 200px;
+        height: 250px;
+        
+    }
+    div.realista h4
+    {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding-bottom: 2%;
+        font-family: 'Courier New', Courier, monospace;
+    
+    }
+    div.chibi
+    {
+    background-color: rgb(218, 190, 255);
+    padding-top: 2%;
+     margin-left: 2%;
+        margin-right: 2%;
+    }
+    div.chibi h4
+    {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding-top: 10%;
+        padding-bottom: 2%;
+        font-family: 'Courier New', Courier, monospace;
+        
+    }
+    div.chibi img{
+        width: 230px;
+        height: 230px;
+    }
+    div.beetle
+    {
+        background-color: rgb(224, 255, 190);
+        padding-top: 2%;
+        margin-left: 2%;
+       margin-right: 0;
+    
+    }
+    
+    div.beetle h4
+    {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding-top: 10%;
+        padding-bottom: 2%;
+        font-family: 'Courier New', Courier, monospace;
+    
+    }
+    
+    div.beetle img{
+        width: 230px;
+        height: 230px;
+    }
+    div.container-estilo button
+    {
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 230px;
+    }
+    div.container-estilo-boton img
+    {
+        width: 30px;
+        height: 30px;
+    }
+    section#Proceso
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image:linear-gradient(rgb(255, 127, 244), rgb(222, 239, 248));
+    }
+    div.container-process
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    div.container-process img
+    {
+    width: 340px;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 50px;
+    
+    }
+    div.container-textp h3
+    {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding-bottom: 3%;
+        font-size: 1.5rem;
+        font-family: 'Courier New', Courier, monospace;
+    
+    
+    }
+    div.container-textp
+    {
+     padding: 5%;
+     
+    }
+    div.container-textp p{
+        font-size: 1.12rem;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 25px;
+    }
+    div.container-expli
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 1%;
+        padding-left: 2%;
+        padding-right: 2%;
+    
+    }
+    div.container-expli p
+    {
+        font-size: 1.12rem;
+        line-height: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 2%;
+    
+    }
+    div.container-expli img
+    {
+        
+        display:flex;
+        flex-direction: row-reverse;
+        width: 200px;
+        height: 175px;
+    }
+    div.imagenes
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 1%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    
+    footer
+    {
+        display: flex;
+        flex-direction: row;
+        background-image: linear-gradient(rgb(222, 239, 248),rgb(255, 127, 244));
+    }
+    div.container-contact
+    {
+        font-size: 1.12rem;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 25px;
+        padding: 3%;
+        background-color: #57575700;
+    
+    }
+    div.container-form
+    {
+        background-color: rgb(255, 228, 190);
+        display: flex;
+        flex-direction: column;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.12;
+        padding: 1.7em;
+        border-radius: 10%;
+        text-align: center;
+        margin: 2em;
+        
+    }
+    div.form-container
+    {
+        gap: 2.5em;
+        margin-top: 3%;
+        padding: .6em;
+    }
+    div.form-group
+    {
+    position: relative;
+     color: #5757577e;
+    }
+    div.form-input
+    {width: 100%;
+        background: none;
+        color: #706c6c;
+        padding: .8em .3em;
+        border:none;
+        outline: none;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    
+    div.form-label
+    {
+        color: #5757577e;
+        position: absolute;
+        left: 5PX;
+        top: 0;
+    
+    }
+    .form-submit
+    { background-color: rgb(205, 239, 255);
+        color: #000000;
+        font-weight: 300;
+    padding: 0 .8em;
+    }
+    
+    div.container-redes
+    {
+    padding: 1%;
+    font-family: 'Courier New', Courier, monospace;
+    }
+    
+    div.face
+    {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+        justify-content: center;
+        padding: 1%;
+    
+    
+    }
+    div.insta
+    {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+        justify-content: center;
+        padding: 1%;
+    
+    }
+    div.tiktok
+    {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+        justify-content: center;
+        padding: 1%;
+    
+    }
+    div.container-redes img
+    {
+        width: 40px;
+        height: 40px;
+    
+    }
+    div.container-info
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        display: flexbox;
+    
+    }
+    div.container-info img{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        left: 0;
+        top: 0
+    }
+
+}
+
+@media only screen and (min-width : 1024px) {
+    header.container{
+        background-color:rgb(255, 245, 233) ;
+        width: 100%;
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 3%;
+    }
+    
+    div.container-logo{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+    div.container-logo img{
+        width: 20%;
+        height: 20%;
+        position: relative;
+        left: 4px;
+        top: 5px;
+    }
+    
+    div.container-logo h1{
+        font-family:'Courier New', Courier, monospace;
+        background-color: rgb(255, 127, 244);
+        font-size: 3rem;
+    }
+    
+    li {
+        float: left;
+      }
+      
+      a {
+        font-family:Arial, Helvetica, sans-serif;
+        display: block;
+        padding: 8px;
+        background-color: rgb(255, 247, 238);
+      }
+    
+    
+    nav{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    section#Inicio{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(255, 228, 190);
+    }
+    section#Inicio h2{
+        font-size: 2rem;
+        font-family:'Courier New', Courier, monospace;
+        font-weight: bold;
+        padding:2%
+    }
+    div.container-video{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    div.container-video button
+    {
+        align-items: center;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+    
+    }
+    div.container-video img
+    {
+        width: 60px;
+        height: 60px;
+    
+    }
+    div.container-video video{
+        width: 550px;
+        height: 350px;
+    }
+    section#estilos
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: linear-gradient(rgb(255, 228, 190),rgb(255, 127, 244) );
+    }
+    section#estilos h3
+    {
+        font-size: 1.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: normal;
+        padding-top: 3%;
+    }
+    div.container-estilo
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 1%;
+        padding-left: 2%;
+        padding-right: 2%;
+        
+        
+    }
+    div.realista{
+        background-color:rgb(255, 228, 190);
+        padding-top: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    div.realista img{
+        width: 260px;
+        height: 320px;
+        
+    }
+    div.realista h4
+    {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding-bottom: 2%;
+        font-family: 'Courier New', Courier, monospace;
+    
+    }
+    div.chibi
+    {
+    background-color: rgb(218, 190, 255);
+    padding-top: 2%;
+     margin-left: 2%;
+        margin-right: 2%;
+    }
+    div.chibi h4
+    {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding-top: 10%;
+        padding-bottom: 2%;
+        font-family: 'Courier New', Courier, monospace;
+        
+    }
+    div.chibi img{
+        width: 280px;
+        height: 280px;
+    }
+    div.beetle
+    {
+        background-color: rgb(224, 255, 190);
+        padding-top: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
+    
+    }
+    
+    div.beetle h4
+    {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding-top: 10%;
+        padding-bottom: 2%;
+        font-family: 'Courier New', Courier, monospace;
+    
+    }
+    
+    div.beetle img{
+        width: 280px;
+        height: 280px;
+    }
+    
+    
+    div.container-estilo button
+    {
+        
+        align-items: center;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+    
+    }
+    div.container-estilo-boton img
+    {
+        width: 60px;
+        height: 60px;
+    
+    }
+    section#Proceso
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+        padding: 5%;
+        background-image:linear-gradient(rgb(255, 127, 244), rgb(255, 228, 190));
+    }
+    div.container-process
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    div.container-process img
+    {
+    width: 700px;
+    height: 350px;
+    padding: 2%;
+    }
+    div.container-textp h3
+    {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding-bottom: 3%;
+        font-size: 1.5rem;
+        font-family: 'Courier New', Courier, monospace;
+    
+    }
+    div.container-textp
+    {
+     padding: 5%;
+     
+    }
+    div.container-textp p{
+        font-size: 1.12rem;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 25px;
+    }
+    div.container-expli
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 1%;
+        padding-left: 2%;
+        padding-right: 2%;
+    
+    }
+    div.container-expli p
+    {
+        font-size: 1.12rem;
+        line-height: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 2%;
+    
+    }
+    div.container-expli img
+    {
+        
+        display:flex;
+        flex-direction: row-reverse;
+        width: 350px;
+        height: 300px;
+    }
+    div.imagenes
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 1%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    
+    footer
+    {
+        display: flex;
+        flex-direction: row;
+        background-image: linear-gradient(rgb(255, 228, 190),rgb(255, 127, 244));
+    }
+    div.container-contact
+    {
+        font-size: 1.12rem;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 25px;
+        padding: 3%;
+    
+    }
+    div.container-form
+    {
+        background-color: rgb(255, 228, 190);
+        display: flex;
+        flex-direction: column;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.12;
+        padding: 3em;
+        border-radius: 10%;
+        text-align: center;
+        margin: 1em;
+        
+    }
+    div.form-container
+    {
+        gap: 2.5em;
+        margin-top: 3%;
+        padding: .6em;
+    }
+    div.form-group
+    {
+    position: relative;
+     color: #5757577e;
+    }
+    div.form-input
+    {width: 100%;
+        background: none;
+        color: #706c6c;
+        padding: .8em .3em;
+        border:none;
+        outline: none;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    
+    div.form-label
+    {
+        color: #5757577e;
+        position: absolute;
+        left: 5PX;
+        top: 0;
+    
+    }
+    .form-submit
+    { background-color: rgb(205, 239, 255);
+        color: #000000;
+        font-weight: 300;
+    padding: 0 .8em;
+    }
+    
+    div.container-redes
+    {
+    padding: 1%;
+    font-family: 'Courier New', Courier, monospace;
+    }
+    
+    div.face
+    {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+        justify-content: center;
+        padding: 1%;
+    
+    
+    }
+    div.insta
+    {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+        justify-content: center;
+        padding: 1%;
+    
+    }
+    div.tiktok
+    {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+        justify-content: center;
+        padding: 1%;
+    
+    }
+    div.container-redes img
+    {
+        width: 40px;
+        height: 40px;
+    
+    }
+    div.container-info
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        display: flexbox;
+    
+    }
+    div.container-info img{
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+
